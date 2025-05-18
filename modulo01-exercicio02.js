@@ -11,8 +11,14 @@
 
 
 const prompt = require ("prompt-sync") () // Habilitando entrada
+
+// Capturando a idade
 let idade = Number (prompt ("Digite a idade: "))
-if (idade < 0) {
+
+// No primeiro if, verifica se o número não é negativo ou se não é um número. 
+// Caso positivo, retorna a mensagem de idade inválida.
+// Caso contrário, categoriza a idade de acordo com dado fornecido.
+if ((idade < 0) || (isNaN (idade))) {
     console.log ("Idade inválida")
 }else {
     if (idade < 12){
