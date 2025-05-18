@@ -5,7 +5,7 @@
 const prompt = require ("prompt-sync") () // Habilitando entrada
 
 // Capturando quantas maças foram compradas
-let macas = Number (prompt ("Quantas maças foram compradas "))
+let macas = Number (prompt ("Quantas maças foram compradas? "))
 
 // No primeiro if, verifica se o número não é negativo ou se não é um número. 
 // Caso positivo, retorna a mensagem de valor inválido.
