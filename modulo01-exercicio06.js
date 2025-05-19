@@ -14,9 +14,9 @@ let a = Number (prompt ("Digite o valor do lado A: "))
 let b = Number (prompt ("Digite o valor do lado B: "))
 let c = Number (prompt ("Digite o valor do lado C: "))
 
-//Verificando Se os dados infromados podem formar um triângulo e se os dados informados são numéricos.
-//Caso positivo, categorize o triângulo de acordo com dados informados.
-//Caso contrário, informe que os dados não podem formar um triângulo.
+// Verificando Se os dados infromados podem formar um triângulo e se os dados informados são numéricos.
+// Caso positivo, categorize o triângulo de acordo com dados informados.
+// Caso contrário, informe que os dados não podem formar um triângulo.
 if ((a < (b + c)) && (b < (a + c)) && (c < (a +b )) && !(isNaN (a)) && !(isNaN (b)) && !(isNaN (c))) {
     if ((a === b) && (b === c)){
         console.log ("O triângulo é equilátero")
